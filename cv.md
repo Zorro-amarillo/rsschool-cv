@@ -1,5 +1,7 @@
 # Yana Malakhova
 
+![Main photo](main_photo.jpg "Yana Malakhova")
+
 ## Contacts 
 
 **Location:** Minsk, Belarus
