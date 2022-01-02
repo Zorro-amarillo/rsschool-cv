@@ -41,7 +41,11 @@ I believe that my experience and knowledge will help me become a valuable additi
 ********
 
 ## Code Examples
-
+```
+function multiply(a, b){
+  return a * b
+}
+```
 ********
 
 ## Experience
