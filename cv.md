@@ -66,5 +66,7 @@ function multiply(a, b){
 ## Languages:
 - **English** - Advanced
 (according to the [EF Standard English Test](www.efset.org "www.efset.org")) 
+
+![EF SET result](EF_SET.png "EF SET result")
 - **Belarusian** - Native
 - **Russian** - Native
