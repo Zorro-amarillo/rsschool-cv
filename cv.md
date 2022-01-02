@@ -46,6 +46,8 @@ I believe that my experience and knowledge will help me become a valuable additi
 
 ## Experience
 
+- [CV (сurriculum vitae) ](https://zorro-amarillo.github.io/rsschool-cv/ "CV (сurriculum vitae) ")
+
 ********
 
 ## Education
