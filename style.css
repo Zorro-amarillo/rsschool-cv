@@ -107,7 +107,7 @@ html {
     border-top: 5px solid #769FCD;
 }
 
-.box-rose {
+.header-box-rose {
     background: repeating-linear-gradient(
     135deg,
     #F9ECEC,
@@ -119,7 +119,7 @@ html {
     border: 5px #fff;
 }
 
-.box-blue {
+.header-box-blue {
     background: repeating-linear-gradient(
     135deg,
     #C8D9EB,
