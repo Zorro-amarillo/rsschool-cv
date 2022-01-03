@@ -40,7 +40,7 @@ body {
 }
 
 html {
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 }
 
 .nav-list {
@@ -70,12 +70,18 @@ html {
 }
 
 /* делаем секции в 2 колонки */
-.section {
+.section-columns {
     width: 50%;
 }
 
+.section-main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 @media (max-width: 768px) {
-    .section {
+    .section-columns {
     width: 100%;
     }
 }
@@ -94,8 +100,9 @@ html {
     color: #63B3ED;
 }
 
-.user-img {
+.profile-img {
     border-radius: 0 30px;
+    margin: 30px;
 }
 
 .footer-container {
