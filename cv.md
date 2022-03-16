@@ -2,7 +2,7 @@
 
 ![Main photo](main_photo.jpg "Yana Malakhova")
 
-## Contacts 
+## Contacts
 
 **Location:** Minsk, Belarus
 
@@ -18,9 +18,9 @@
 
 ********
 
-## Summary 
+## Summary
 
-A highly organized, self-motivated Front-end Developer seeking an entry-level position to use my technical skills in coding and troubleshooting complex problems. I have over 4 years of experience in website editing, therefore a significant part of my professional life has been dedicated to working with code and content management systems. 
+A highly organized, self-motivated Front-end Developer seeking an entry-level position to use my technical skills in coding and troubleshooting complex problems. I have over 4 years of experience in website editing, therefore a significant part of my professional life has been dedicated to working with code and content management systems.
 
 А persistent person with a keen eye for detail, awarded for high efficiency, exceptional diligence, dedication and responsibility in 2018 while working as a website editor.
 
@@ -30,7 +30,7 @@ I believe that my experience and knowledge will help me become a valuable additi
 
 ********
 
-## Skills 
+## Skills
 - HTML5, CSS3
 - JavaScript Basics
 - Git, GitHub
@@ -42,8 +42,9 @@ I believe that my experience and knowledge will help me become a valuable additi
 
 ## Code Examples
 ```
-function multiply(a, b){
-  return a * b
+function disemvowel(str) {
+  const result = str.replace(/[aeiou]/ig, '');
+  return result;
 }
 ```
 ********
@@ -51,21 +52,30 @@ function multiply(a, b){
 ## Experience
 
 - [CV (сurriculum vitae) ](https://zorro-amarillo.github.io/rsschool-cv/ "CV (сurriculum vitae) ")
+- [Portfolio](https://rolling-scopes-school.github.io/zorro-amarillo-JSFEPRESCHOOL/portfolio/ "Portfolio")
+- [Eco-sounds](https://rolling-scopes-school.github.io/zorro-amarillo-JSFEPRESCHOOL/js30-1/ "Eco-sounds")
+- [Image gallery](https://rolling-scopes-school.github.io/zorro-amarillo-JSFEPRESCHOOL/js30-2/ "Image gallery")
+
 
 ********
 
 ## Education
 **Belarusian State University**, 2005-2010 / Computational Linguistics.
-### Courses
-- [HTML](https://ru.code-basics.com/languages/html "HTML basic course") and [CSS](https://code-basics.com/languages/css "CSS basic course") basic courses on Code Basics (completed) 
-- [JavaScript](https://ru.code-basics.com/languages/javascript "JavaScript basic course") basic course on Code Basics (in progress)
-- ["JavaScript/Front-end. Stage 0"](https://rs.school/js-stage0/ "https://rs.school/js-stage0/") course at the Rolling Scopes School   (in progress) 
+
+********
+
+## Courses
+- [HTML](https://ru.code-basics.com/languages/html "HTML basic course") and [CSS](https://code-basics.com/languages/css "CSS basic course") basic courses on Code Basics (completed)
+- [JavaScript](https://ru.code-basics.com/languages/javascript "JavaScript basic course") basic course on Code Basics (completed)
+- ["JavaScript/Front-end. Stage 0"](https://rs.school/js-stage0/ "https://rs.school/js-stage0/") course at the Rolling Scopes School (completed)
+- ["JavaScript/Front-end"](https://rs.school/js/ "https://rs.school/js/") course at the Rolling Scopes School (in progress)
+
 
 ********
 
 ## Languages:
 - **English** - Advanced
-(according to the [EF Standard English Test](www.efset.org "www.efset.org")) 
+(according to the [EF Standard English Test](www.efset.org "www.efset.org"))
 
 ![EF SET result](EF_SET.png "EF SET result")
 - **Belarusian** - Native
