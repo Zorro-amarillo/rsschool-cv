@@ -17,6 +17,7 @@
 .header {
     background: linear-gradient(135deg,#C8D9EB,#F0D9DA);
     margin-bottom: 20px;
+    height: 82px;
 }
 
 body {
@@ -59,6 +60,20 @@ html {
 
 .nav-link:hover {
     opacity: 0.5; /* эффект затухания */
+}
+
+.nav-link::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0;
+    background-color: #fff;
+    transition: .2s;
+}
+
+.nav-link:hover::after {
+    width: 80%;
+    margin: 0 20px 0 20px;
 }
 
 /* делаем секции в 2 колонки */
@@ -153,12 +168,26 @@ html {
     border: 5px #fff;
 }
 
+.projects-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: space-around;
+    gap: 20px;
+}
+
 .button {
-    width: 50%;
+    display: block;
+    width: 40%;
     background-color: #f5f5f5;
     border: 1px solid #C8D9EB;
     padding: 20px;
     font-size: 16px;
+}
+
+.button:hover {
+    cursor: pointer;
+    color: #088dec;
 }
 
 .ul {
