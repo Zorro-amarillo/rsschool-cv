@@ -49,13 +49,27 @@ function disemvowel(str) {
 ```
 ********
 
-## Experience
+## Projects
 
 - [CV (сurriculum vitae) ](https://zorro-amarillo.github.io/rsschool-cv/ "CV (сurriculum vitae) ")
 - [Portfolio](https://rolling-scopes-school.github.io/zorro-amarillo-JSFEPRESCHOOL/portfolio/ "Portfolio")
 - [Eco-sounds](https://rolling-scopes-school.github.io/zorro-amarillo-JSFEPRESCHOOL/js30-1/ "Eco-sounds")
 - [Image gallery](https://rolling-scopes-school.github.io/zorro-amarillo-JSFEPRESCHOOL/js30-2/ "Image gallery")
+- [Shelter](https://rolling-scopes-school.github.io/zorro-amarillo-JSFE2022Q1/shelter/pages/main/ "Shelter")
+- [Travel](https://rolling-scopes-school.github.io/zorro-amarillo-JSFEPRESCHOOL/travel/ "Travel")
 
+
+********
+
+## Work Experience
+[Shate-M Plus](https://shate-m.by "Shate-M Plus Website"):
+- Head of PR and Marketing Department (2019-2020),
+- Website Editor (2016-2019),
+- Head of Customer Sales Department (2013-2016),
+- Sales Specialist (2011-2013).
+
+[Mas-Tel](https://yandex.by/maps/org/bomba_internet_tsentr_iooo_mas_tel/1120029198/?ll=27.633400%2C53.911216&z=16 "Mas-Tel Location"):
+- Administrator (2009-2010).
 
 ********
 
