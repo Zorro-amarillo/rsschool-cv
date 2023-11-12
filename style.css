@@ -212,12 +212,16 @@ html {
     padding: 0px;
 }
 
-.ul li::before {
+.contacts__ul {
+    column-count: 2;
+}
+
+/* .ul li::before {
     content: "\2BC1";
     color: LightGray;
     margin-right: 10px;
     font-size: 18px;
-}
+} */
 
 .text {
     margin: 30px;
@@ -234,6 +238,71 @@ html {
 
 .h3 {
     font-size: 30px;
+}
+
+.icon {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    fill: #636363;
+}
+
+.icon:hover {
+    fill: #d49396;
+    cursor: pointer;
+}
+
+.icon_location {
+    top: 4px;
+    right: 7px;
+}
+
+.contacts__link {
+    color: #636363;
+    transition: .3s;
+}
+
+.contacts__link:hover {
+    color: #d49396;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.contacts__link_icon {
+    transition: .3s;
+}
+
+.contacts__link_icon {
+    text-decoration: none;
+}
+
+.icon_phone {
+    top: 11px;
+    left: 1px;
+}
+
+.icon_email {
+    top: 14px;
+    left: 1px;
+}
+
+.icon_discord {
+    top: 13px;
+}
+
+.icon_telegram {
+    top: 12px;
+}
+
+.icon_linkedin {
+    top: 10px;
+    right: 2px;
+}
+
+.icon_discord:hover,
+.icon_location:hover {
+    fill: #636363;
+    cursor: default;
 }
 
 /* @media (max-width: 768px) {
