@@ -206,22 +206,59 @@ html {
     color: #088dec;
 }
 
-.ul {
-    list-style: none;
+.section__list {
     margin: 30px;
     padding: 0px;
+    list-style: none;
 }
 
-.contacts__ul {
+.section__item {
+    position: relative;
+    padding-left: 25px;
+    transition: .3s;
+}
+
+.section__item::before {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    top: 5px;
+    left: 0;
+    transition: .3s;
+}
+
+.section__item:hover::before {
+    transform: rotate(45deg);
+}
+
+.experience__list .section__item::before {
+    background: #F0D9DA;
+}
+
+.experience__list .section__item:hover::before {
+    background: #d49396;
+}
+
+.contacts__list {
     column-count: 2;
 }
 
-/* .ul li::before {
-    content: "\2BC1";
-    color: LightGray;
-    margin-right: 10px;
-    font-size: 18px;
-} */
+.contacts__list .section__item::before {
+    content: "";
+}
+
+.skills__list .section__item::before,
+.courses__list .section__item::before,
+.languages__list .section__item::before {
+    background: #C8D9EB;
+}
+
+.skills__list .section__item:hover::before,
+.courses__list .section__item:hover::before,
+.languages__list .section__item:hover::before {
+    background: #8eb1d6;
+}
 
 .text {
     margin: 30px;
