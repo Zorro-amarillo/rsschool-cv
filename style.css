@@ -213,6 +213,10 @@ html {
     border: 5px #fff;
 } */
 
+.project__item {
+    width: 430px;
+}
+
 .projects-btn {
     display: flex;
     flex-wrap: wrap;
@@ -223,7 +227,6 @@ html {
 .project__button {
     display: block;
     position: relative;
-    min-width: 430px;
     height: 206px;
     border: none;
     font-size: 18px;
