@@ -230,8 +230,6 @@ html {
     height: 206px;
     border: none;
     font-size: 18px;
-    background-size: cover;
-    background-position: center;
     filter: grayscale(20%) saturate(10%);
     border: 1px solid #636363;
     transition: .3s;
