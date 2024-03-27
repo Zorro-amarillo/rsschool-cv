@@ -138,7 +138,7 @@ html {
 }
 
 .column_narrow .section-title {
-    padding-top: 20px;
+    padding-top: 50px;
 }
 
 #skills .section-title {
@@ -213,36 +213,37 @@ html {
     border: 5px #fff;
 } */
 
-.project__item {
-    width: 430px;
-}
-
-.projects-btn {
+.projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
     gap: 20px;
 }
 
-.project__button {
+.projects__item {
+    width: calc(50% - 10px);
+}
+
+.projects__button {
     display: block;
     position: relative;
     height: 206px;
     border: none;
     font-size: 18px;
     background-size: cover;
+    background-position: center;
     filter: grayscale(20%) saturate(10%);
     border: 1px solid #636363;
     transition: .3s;
 }
 
-.project__button:hover {
+.projects__button:hover {
     cursor: pointer;
     filter: none;
     border: 1px solid #F0D9DA;
 }
 
-.project__title {
+.projects__title {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -257,7 +258,7 @@ html {
     transition: .3s;
 }
 
-.project__title_hover {
+.projects__title_hover {
     color: #636363;
     background: repeating-linear-gradient(
     135deg,
