@@ -1,5 +1,5 @@
 # rsschool-cv
 
-- Markdown: https://GITHUB-USERNAME.github.io/rsschool-cv/cv
+- Markdown: https://zorro-amarillo.github.io/rsschool-cv/cv
 
-- HTML: https://GITHUB-USERNAME.github.io/rsschool-cv/
+- HTML: https://zorro-amarillo.github.io/rsschool-cv/
