@@ -196,11 +196,12 @@ html {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
-    width: calc(100vw - 100px);
+    width: calc(100vw - 117px);
+    max-width: calc(1440px - 100px - 17px);
 }
 
 .projects__item {
-    width: 29%;
+    width: 30%;
     min-width: 300px;
 }
 
