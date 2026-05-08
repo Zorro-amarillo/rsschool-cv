@@ -6,16 +6,16 @@ const projectUrls = [
     'https://rolling-scopes-school.github.io/zorro-amarillo-JSFE2024Q4/nonograms/',
     'https://rolling-scopes-school.github.io/zorro-amarillo-JSFE2024Q4/simon-says/',
     'https://rolling-scopes-school.github.io/zorro-amarillo-JSFE2024Q4/christmas-shop/',
-    'https://rolling-scopes-school.github.io/zorro-amarillo-JSFEPRESCHOOL/js30-random-game/',
-    'https://rolling-scopes-school.github.io/zorro-amarillo-JSFE2022Q1/js30-audio-player/',
+    'https://zorro-amarillo-js30-random-game.netlify.app/',
+    'https://zorro-amarillo-js30-audio-player.netlify.app/',
     'https://zorro-amarillo.github.io/cssMemeSlider/cssMemeSlider/index.html',
     'https://rolling-scopes-school.github.io/zorro-amarillo-JSFE2023Q4/hangman/',
     'https://rolling-scopes-school.github.io/zorro-amarillo-JSFE2023Q4/coffee-house/index.html',
-    'https://rolling-scopes-school.github.io/zorro-amarillo-JSFE2022Q1/shelter/pages/main/',
-    'https://rolling-scopes-school.github.io/zorro-amarillo-JSFEPRESCHOOL/js30-2/',
-    'https://rolling-scopes-school.github.io/zorro-amarillo-JSFEPRESCHOOL/js30-1/',
-    'https://rolling-scopes-school.github.io/zorro-amarillo-JSFEPRESCHOOL/portfolio/',
-    'https://rolling-scopes-school.github.io/zorro-amarillo-JSFEPRESCHOOL/travel/'
+    'https://zorro-amarillo-shelter.netlify.app/pages/main/',
+    'https://zorro-amarillo-js30-image-gallery.netlify.app/',
+    'https://zorro-amarillo-js30-eco-sounds.netlify.app/',
+    'https://zorro-amarillo-portfolio.netlify.app/',
+    'https://zorro-amarillo-travel.netlify.app/'
 ];
 
 function addCardBg() {
