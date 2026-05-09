@@ -3,6 +3,8 @@ const projectItems = document.querySelectorAll('.projects__item'),
     projectTitles = document.querySelectorAll('.projects__title');
 
 const projectUrls = [
+    'https://jumo.by/',
+    'https://zorro-amarillo-react-ts.vercel.app/',
     'https://rolling-scopes-school.github.io/zorro-amarillo-JSFE2024Q4/nonograms/',
     'https://rolling-scopes-school.github.io/zorro-amarillo-JSFE2024Q4/simon-says/',
     'https://rolling-scopes-school.github.io/zorro-amarillo-JSFE2024Q4/christmas-shop/',
