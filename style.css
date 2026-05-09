@@ -96,13 +96,13 @@ html {
 }
 
 .column_narrow {
-    width: 30%;
+    width: 38%;
     background: #ECF2F9;
     padding: 50px;
 }
 
 .column_wide {
-    width: 70%;
+    width: 62%;
     padding-top: 30px;
 }
 
@@ -198,6 +198,7 @@ html {
     justify-items: center;
     gap: 20px;
     width: calc(100vw - 100px - 17px);
+    max-width: calc(1440px - 100px - 17px);
     margin: 0 auto;
 }
 
