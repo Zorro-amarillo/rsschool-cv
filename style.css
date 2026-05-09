@@ -96,13 +96,13 @@ html {
 }
 
 .column_narrow {
-    width: 30%;
+    width: 38%;
     background: #ECF2F9;
     padding: 50px;
 }
 
 .column_wide {
-    width: 70%;
+    width: 62%;
     padding-top: 30px;
 }
 
@@ -192,23 +192,25 @@ html {
 
 .projects {
     position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 420px));
+    justify-content: center;
+    justify-items: center;
     gap: 20px;
-    width: calc(100vw - 117px);
+    width: calc(100vw - 100px - 17px);
     max-width: calc(1440px - 100px - 17px);
+    margin: 0 auto;
 }
 
 .projects__item {
-    width: 30%;
-    min-width: 300px;
+    width: 100%;
 }
 
 .projects__card {
     display: block;
     position: relative;
-    height: 206px;
+    min-height: 215px;
+    width: 100%;
     border: none;
     font-size: 18px;
     border: 1px solid #636363;
@@ -271,16 +273,8 @@ html {
     transition: .3s;
 }
 
-.section__item:hover::before {
-    transform: rotate(45deg);
-}
-
 .experience__list .section__item::before {
     background: #F0D9DA;
-}
-
-.experience__list .section__item:hover::before {
-    background: #d49396;
 }
 
 .experience__link {
@@ -310,9 +304,8 @@ html {
     background: #C8D9EB;
 }
 
-.skills__list .section__item:hover::before,
-.courses__list .section__item:hover::before,
-.languages__list .section__item:hover::before {
+.clickable-item:hover::before {
+    transform: rotate(45deg);
     background: #8eb1d6;
 }
 
