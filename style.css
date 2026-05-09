@@ -273,16 +273,8 @@ html {
     transition: .3s;
 }
 
-.section__item:hover::before {
-    transform: rotate(45deg);
-}
-
 .experience__list .section__item::before {
     background: #F0D9DA;
-}
-
-.experience__list .section__item:hover::before {
-    background: #d49396;
 }
 
 .experience__link {
@@ -312,9 +304,8 @@ html {
     background: #C8D9EB;
 }
 
-.skills__list .section__item:hover::before,
-.courses__list .section__item:hover::before,
-.languages__list .section__item:hover::before {
+.clickable-item:hover::before {
+    transform: rotate(45deg);
     background: #8eb1d6;
 }
 
